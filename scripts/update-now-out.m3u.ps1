@@ -7,7 +7,8 @@ $group = '现在就出发 第四季'
 
 Set-Location $repo
 
-if ((git status --porcelain) -ne '') {
+$status = git status --porcelain
+if ($status) {
     throw '仓库存在未提交的本地修改，已停止，避免覆盖你的工作。'
 }
 
