@@ -2,7 +2,7 @@
 
 $repo = Split-Path -Parent $PSScriptRoot
 $playlist = Join-Path $repo '现在就出发.m3u'
-$api = 'https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/?ac=detail&wd=%E7%8E%B0%E5%9C%A8%E5%87%BA%E5%8F%91'
+$api = 'https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/?ac=detail&wd=%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%91'
 $group = '现在就出发 第四季'
 
 Set-Location $repo
