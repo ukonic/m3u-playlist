@@ -1,0 +1,13 @@
+# Quantumult X AI supplementary rules
+# Apply a force-policy to your AI policy group when importing this remote list.
+
+# OpenAI
+HOST-SUFFIX,oaistatsig.com,AI专用
+
+# Claude
+HOST-SUFFIX,claude.com,AI专用
+HOST-SUFFIX,claudeusercontent.com,AI专用
+
+# Gemini
+HOST,aistudio.google.com,AI专用
+HOST,cloudcode-pa.googleapis.com,AI专用
